@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText('nguyenthaihoang429424@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -23,10 +23,10 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Hoang</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                With 5 years of experience, I have honed my skills in both frontend and mobile dev, creating dynamic and
+                responsive websites.
               </p>
             </div>
           </div>
@@ -39,8 +39,12 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                I'm a front-end developer with 5 years of experience specializing in JavaScript and TypeScript, with a
+                strong background in frameworks like React, React Native, and Vue.js. I focus on building scalable,
+                maintainable applications with clean architecture, responsive user interfaces, and seamless API
+                integration. I’m proficient in modern development workflows using Git, CI/CD pipelines, and cloud
+                services such as AWS and Firebase — enabling me to deliver reliable and production-ready solutions
+                across both web and mobile platforms.
               </p>
             </div>
           </div>
@@ -95,7 +99,9 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white truncate max-w-full overflow-hidden whitespace-nowrap">
+                  nguyenthaihoang429424@gmail.com
+                </p>{' '}
               </div>
             </div>
           </div>
