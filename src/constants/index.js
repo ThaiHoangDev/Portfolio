@@ -59,9 +59,9 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'UNITY NEXT',
-    desc: 'UNITY NEXT is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    desc: 'Development Unity System for Japanese Customer',
     subdesc:
-      'Built as a unique Software-as-a-Service app with React.js, Material UI, TypeScript, Framer Motion and Redux, UNITY NEXT is designed for optimal performance and scalability.',
+      'Developed core frontend functionalities using the ReactJS framework to ensure a seamless and responsive user experience.',
     href: '/',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
@@ -96,10 +96,10 @@ export const myProjects = [
   },
   {
     title: 'Rev-Trading',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    desc: 'This is a Japanese client project on cryptocurrency. The system will manage currency trading strategies',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Develop Frontend using Next.js framework to build core function. With main feature as built a Chart using HightChart',
+    href: '/',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -133,9 +133,9 @@ export const myProjects = [
   },
   {
     title: 'Koru',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    desc: 'IoT is used to control devices to monitor the situation of plants as well as water the plants, giving notifications about temperature and humidity for growers to know and make adjustments.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+      'Analyzed and estimated the task list of the project, meeting with the client to Built UI with dark mode and light mode, and responsive layout',
     href: '/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
@@ -172,9 +172,8 @@ export const myProjects = [
   },
   {
     title: 'Cagr',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+    desc: `The stock app is similar to Crypto, building a chart system so users can monitor each person's salary as well as the increase or decrease of the stock market., and seamlessly transfer money to other users.`,
+    subdesc: 'Built UI layout with dark mode and light mode with React and Material UI',
     href: '/',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
@@ -209,9 +208,9 @@ export const myProjects = [
   },
   {
     title: 'Tracki',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    desc: 'Build software to embed into the device, with the device it can track the location of trips, determine the distance of everyone in the team for trips.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+      'For admin to Manage the money of users paying for the service. Used React, ReactJS AWS Cognito, Google, a used Redux saga to manager state',
     href: '/',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
@@ -263,8 +262,9 @@ export const workExperiences = [
     name: 'FPT software',
     pos: 'FE Developer',
     duration: '2023 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    title:
+      'Since DEC 2023, I’ve been working at FPT Software as a Front-End Developer. In this role, I build scalable, high-performance user interfaces using React and TypeScript. I work closely with UI/UX designers to transform prototypes into functional interfaces, ensuring responsive design and smooth user interactions across devices. I also contribute to product refinement by offering feedback on usability and performance, and participate in testing and iteration throughout the development lifecycle.',
+    icon: '/assets/fpt-logo.png',
     animation: 'victory',
   },
   {
@@ -272,8 +272,9 @@ export const workExperiences = [
     name: 'Tech Town',
     pos: 'FE Developer',
     duration: '2022 - 2023',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    title:
+      'I worked at Tech Town as a Web Developer, where I was responsible for developing and maintaining web systems for clients primarily based in Canada and Malaysia. I worked extensively with HTML, CSS, JavaScript, jQuery, and React Native. I actively supported the development team by fixing UI bugs, contributing to technical documentation, and participating in internal code reviews and training sessions, all of which accelerated my technical growth and prepared me for more advanced roles in web and mobile development.',
+    icon: '/assets/tech-town-logo.webp',
     animation: 'clapping',
   },
   {
@@ -281,8 +282,9 @@ export const workExperiences = [
     name: 'Digital Fortress',
     pos: 'Mobile Developer',
     duration: '2020-2022',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    title:
+      'At Digital Fortress, I began my career as a Web Developer from October 2020 to January 2022. During this period, I focused on strengthening my foundation in core front-end technologies such as HTML5, CSS3, Bootstrap, JavaScript and ReactJS, while also gaining hands-on experience in mobile development using React Native. My role required close collaboration with QA and backend teams within an SCRUM workflow, and I also began applying basic CI/CD practices to improve deployment efficiency.',
+    icon: '/assets/df-logo.png',
     animation: 'salute',
   },
 ];

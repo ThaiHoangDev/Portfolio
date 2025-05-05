@@ -23,10 +23,13 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Hoang</p>
+              <p className="grid-headtext">Career Objective</p>
               <p className="grid-subtext">
-                With 5 years of experience, I have honed my skills in both frontend and mobile dev, creating dynamic and
-                responsive websites.
+                I am a passionate Developer with 5+ years of experience. To secure a challenging position in IT where I
+                can utilize my strong technical skills, problem-solving abilities, and passion for innovation to
+                contribute to the development. With a solid foundation in software development and a keen interest in
+                emerging technologies, my goal is to collaborate with a dynamic team to design and deliver robust,
+                scalable, and user-centric applications
               </p>
             </div>
           </div>
@@ -67,7 +70,10 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-subtext">
+                Seeking a challenging position in a reputable company in Da Nang or HCM city where I can apply my
+                skills, grow professionally, and contribute to the success of the team.
+              </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
